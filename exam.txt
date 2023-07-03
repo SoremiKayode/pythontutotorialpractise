@@ -1,0 +1,25 @@
+You're sadddled with the responsilbilty to create a program to help teachers validate if these 
+these calculatios:
+create a calculator that validate the correctness of the following mathematical expression
+
+create a folder in command prompt open the folder in in visual studio code, create a python file and name it index.py
+6 to the power of 8 / 4
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world
+Hello world

@@ -1,0 +1,21 @@
+Jeremiah 2
+Joshua 1
+Joseph 1
+Darasimi 1
+
+
+
+
+
+Data : any meaningful information : list of names, list of cities, list of files, list of actions performed on your system, 
+list of scores, 
+Database : a database is a file that stores data, and have ways of acessing, retrieving, updating, deleting the information stored in it
+what are the type of database :
+sql : structure query language
+Mysql 
+SQlite 
+PosgresSql
+NoSql 
+MariaDb
+Microsoft Access
+

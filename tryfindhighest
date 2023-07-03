@@ -1,0 +1,11 @@
+name = ["kola", "Kayode", "Bola", "Femilanahyuuttt", "Osegenetitious"]
+
+lenght = 0
+index = 0
+for x in name :
+    if len(x) > lenght :
+        lenght = len(x)
+        index = name.index(x)
+
+print(f"The longest word in the list is {name[index]}")
+print(f"It's index is {index}")

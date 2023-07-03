@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+<style>
+#range {
+    appearance: none;
+    width: 600px;
+    height: 25px;
+    background-color: #d3d3d3;
+    outline: none;
+    border-radius: 15px;
+    transition:  .2s;
+}
+
+#range::-webkit-slider-thumb {
+    appearance: none;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background: rgb(171, 255, 137);
+    cursor: pointer;
+    border: 4px solid red;
+}
+
+#range::-webkit-slider-thumb:hover {
+    background: url("btc.png");
+    border: none;
+    
+}
+</style>
+    <div>
+    <input type="range" min="0.000042" max="20" step="0.000001" name="" id="range" onchange="change_display()">
+    <span id="show"></span>
+</div>
+
+<!-- Nav tabs -->
+<ul class="nav nav-tabs" id="navId">
+    <li class="nav-item">
+        <a href="#tab1Id" class="nav-link active">Active</a>
+    </li>
+    <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#tab2Id">Action</a>
+            <a class="dropdown-item" href="#tab3Id">Another action</a>
+            <div class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#tab4Id">Action</a>
+        </div>
+    </li>
+    <li class="nav-item">
+        <a href="#tab5Id" class="nav-link">Another link</a>
+    </li>
+    <li class="nav-item">
+        <a href="#" class="nav-link disabled">Disabled</a>
+    </li>
+</ul>
+
+<!-- Tab panes -->
+<div class="tab-content">
+    <div class="tab-pane fade show active" id="tab1Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab2Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab3Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab4Id" role="tabpanel"></div>
+    <div class="tab-pane fade" id="tab5Id" role="tabpanel"></div>
+</div>
+
+<script>
+    $('#navId a').click(e => {
+        e.preventDefault();
+        $(this).tab('show');
+    });
+</script>
+<script>
+function change_display(){
+var range = document.getElementById("range");
+var show = document.getElementById("show");
+
+show.innerHTML = range.value;
+}.
+
+</script>
+</body>
+
+
+</html>
